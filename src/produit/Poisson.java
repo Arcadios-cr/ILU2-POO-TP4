@@ -9,7 +9,7 @@ public class Poisson extends Produit{
 	public void decrireProduit(Produit produit) {
 		StringBuilder chaine = new StringBuilder();
 		chaine.append(produit.getNom());
-		chaine.append(" péché ");
+		chaine.append(" pêché ");
 		chaine.append(jour);
 		System.out.println(chaine);
 	}

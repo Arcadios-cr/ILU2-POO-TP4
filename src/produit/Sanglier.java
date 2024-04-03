@@ -2,9 +2,9 @@ package produit;
 import personnages.Gaulois;
 
 public class Sanglier extends Produit{
-	private Float poids;
+	private int poids;
 	private Gaulois chasseur;
-	public Sanglier(String nom, Unite unite, Float poids, Gaulois chasseur) {
+	public Sanglier(String nom, Unite unite, int poids, Gaulois chasseur) {
 		super(nom,unite);
 		this.poids = poids;
 		this.chasseur = chasseur;
